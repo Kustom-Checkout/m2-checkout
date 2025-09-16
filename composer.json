@@ -1,0 +1,99 @@
+{
+    "name": "vaimo/kustom-m2-checkout",
+    "type": "metapackage",
+    "version": "1.0.0",
+    "require": {
+        "vaimo/kustom-module-support":  "3.0.14",
+        "vaimo/kustom-module-siwk":  "1.0.13",
+        "vaimo/kustom-module-plugins-api":  "1.0.5",
+        "vaimo/kustom-module-orderlines":  "3.0.15",
+        "vaimo/kustom-module-osm":  "4.0.15",
+        "vaimo/kustom-module-kss":  "3.0.15",
+        "vaimo/kustom-module-payments-graph-ql":  "3.0.17",
+        "vaimo/kustom-module-payments":  "10.0.17",
+        "vaimo/kustom-module-klarna-api":  "1.0.4",
+        "vaimo/kustom-module-kec":  "2.0.17",
+        "vaimo/kustom-module-kco":  "12.0.16",
+        "vaimo/kustom-module-interoperability":  "1.0.2",
+        "vaimo/kustom-module-base":  "11.0.12",
+        "vaimo/kustom-module-backend":  "11.0.14",
+        "vaimo/kustom-module-admin-settings":  "1.0.14",
+        "vaimo/kustom-module-logger": "3.0.9"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/vaimo/kustom-module-support"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/vaimo/kustom-module-siwk"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/vaimo/kustom-module-plugins-api"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/vaimo/kustom-module-orderlines"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/vaimo/kustom-module-osm"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/vaimo/kustom-module-kss"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/vaimo/kustom-module-payments-graph-ql"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/vaimo/kustom-module-payments"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/vaimo/kustom-module-klarna-api"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/vaimo/kustom-module-kec"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/vaimo/kustom-module-kco"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/vaimo/kustom-module-interoperability"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/vaimo/kustom-module-base"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/vaimo/kustom-module-backend"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/vaimo/kustom-module-admin-settings"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/vaimo/kustom-module-logger"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "magento/composer-dependency-version-audit-plugin": false
+        }
+    }
+}
+
