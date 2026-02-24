@@ -1,7 +1,7 @@
 {
     "name": "vaimo/kustom-m2-checkout",
     "type": "metapackage",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "require": {
         "vaimo/kustom-module-support":  "3.0.15",
         "vaimo/kustom-module-siwk":  "1.0.14",
@@ -12,12 +12,10 @@
         "vaimo/kustom-module-payments-graph-ql":  "3.0.19",
         "vaimo/kustom-module-payments":  "10.0.19",
         "vaimo/kustom-module-klarna-api":  "1.0.7",
-        "vaimo/kustom-module-kec":  "2.0.19",
-        "vaimo/kustom-module-kco": "12.0.19",
-        "vaimo/kustom-module-interoperability":  "1.0.5",
-        "vaimo/kustom-module-base":  "11.0.14",
+        "vaimo/kustom-module-kco": "12.0.20",
+        "vaimo/kustom-module-base":  "11.0.16",
         "vaimo/kustom-module-backend":  "11.0.17",
-        "vaimo/kustom-module-admin-settings":  "1.1.1",
+        "vaimo/kustom-module-admin-settings":  "1.1.2",
         "vaimo/kustom-module-logger": "3.0.9"
     },
     "repositories": [
