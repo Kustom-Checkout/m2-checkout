@@ -14,7 +14,7 @@
         "vaimo/kustom-module-klarna-api":  "1.0.7",
         "vaimo/kustom-module-kco": "12.0.21",
         "vaimo/kustom-module-base":  "11.0.17",
-        "vaimo/kustom-module-backend":  "11.0.17",
+        "vaimo/kustom-module-backend":  "11.0.18",
         "vaimo/kustom-module-admin-settings":  "1.1.2",
         "vaimo/kustom-module-logger": "3.0.9"
     },
