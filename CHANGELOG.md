@@ -15,4 +15,3 @@
   * KUSTOM-42 Removed obsolete "Client identifier" field from API credentials in admin configuration panel
   * KUSTOM-49 Fixed critical error around logging address data into file when updating logged in user address
   * KUSTOM-51 Changed the direct linking to Kustom's merchant portal on the admin panel
-    fix type error that could break checkout when the address pre-fill was used
