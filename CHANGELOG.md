@@ -11,6 +11,7 @@
   * KUSTOM-76 Fix Shipping amount does not match for order between Kustom and Magento - kco:12.0.22
   * [KUSTOM-58][KUSTOM-77][KUSTOM-82][KUSTOM-83][KUSTOM-84] Fix Orders instantly cancelled by api because of uncaught exceptions kco:12.0.22
   * KUSTOM-88 DEPRECATED Hide/Disable Klarna Payments, On-Site Messaging and Express Checkout - admin-settings:1.1.4
+  * KUSTOM-20 Fix broken merchant portal link in order detail page - base:11.0.17
 
 1.1.2 / 2026-02-24
 ==================
