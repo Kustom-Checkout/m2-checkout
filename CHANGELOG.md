@@ -10,6 +10,7 @@
   * KUSTOM-68 Fixed guzzlehttp/guzzle compatibility for Magento versions earlier than 2.4.5 - base:11.0.17, klarna-api:1.0.8
   * KUSTOM-76 Fix Shipping amount does not match for order between Kustom and Magento - kco:12.0.22
   * [KUSTOM-58][KUSTOM-77][KUSTOM-82][KUSTOM-83][KUSTOM-84] Fix Orders instantly cancelled by api because of uncaught exceptions kco:12.0.22
+  * KUSTOM-88 DEPRECATED Hide/Disable Klarna Payments, On-Site Messaging and Express Checkout - admin-settings:1.1.4
 
 1.1.2 / 2026-02-24
 ==================
