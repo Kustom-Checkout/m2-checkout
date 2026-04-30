@@ -12,7 +12,7 @@
         "vaimo/kustom-module-payments-graph-ql":  "3.0.19",
         "vaimo/kustom-module-payments":  "10.0.19",
         "vaimo/kustom-module-klarna-api":  "1.0.8",
-        "vaimo/kustom-module-kco": "12.0.22",
+        "vaimo/kustom-module-kco": "12.0.23",
         "vaimo/kustom-module-base":  "11.0.17",
         "vaimo/kustom-module-backend":  "11.0.18",
         "vaimo/kustom-module-admin-settings":  "1.1.4",
