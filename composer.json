@@ -3,10 +3,10 @@
     "type": "metapackage",
     "version": "1.2.0",
     "require": {
-        "kustom/module-admin-settings":  "1.2.0",
+        "kustom/module-admin-settings": "dev-feature/KUSTOM-96-full-checkout as 1.2.0",
         "kustom/module-backend":  "11.1.0",
         "kustom/module-base":  "11.1.0",
-        "kustom/module-kco": "12.1.0",
+        "kustom/module-kco": "dev-feature/KUSTOM-96-full-checkout as 12.1.0",
         "kustom/module-klarna-api":  "1.1.0",
         "kustom/module-kss":  "3.1.0",
         "kustom/module-logger": "3.1.0",
