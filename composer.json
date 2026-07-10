@@ -8,7 +8,7 @@
         "kustom/module-base":  "11.1.0",
         "kustom/module-kco": "dev-feature/KUSTOM-96-full-checkout as 12.1.0",
         "kustom/module-klarna-api":  "1.1.0",
-        "kustom/module-kss":  "3.1.0",
+        "kustom/module-kss": "dev-feature/KUSTOM-96-full-checkout as 3.1.0",
         "kustom/module-logger": "3.1.0",
         "kustom/module-orderlines":  "3.1.0",
         "kustom/module-osm":  "4.1.0",
