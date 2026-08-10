@@ -4,6 +4,26 @@
 
 ### Affected packages
 
+| Package                         | From   | To     |
+|---------------------------------|--------|--------|
+| kustom/module-kco               | 12.1.0 | 12.1.1 |
+
+### Breaking changes
+
+* None
+
+### Features / changes
+
+* None
+
+### Fixes
+
+* KUSTOM-78: KUSTOM-46: Fix where product names and space cause problems with new Kustom module.
+
+## 1.2.0 / 2026-06-26
+
+### Affected packages
+
 | Package                         | From    | To     |
 |---------------------------------|---------|--------|
 | kustom/module-admin-settings    | 1.1.4   | 1.2.0  |
