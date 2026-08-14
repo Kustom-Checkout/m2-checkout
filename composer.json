@@ -1,14 +1,14 @@
 {
     "name": "kustom/m2-checkout",
     "type": "metapackage",
-    "version": "1.2.1",
+    "version": "1.3.0",
     "require": {
-        "kustom/module-admin-settings":  "1.2.0",
+        "kustom/module-admin-settings":  "^1.3.0",
         "kustom/module-backend":  "11.1.0",
         "kustom/module-base":  "^11.1.1",
-        "kustom/module-kco": "^12.1.1",
+        "kustom/module-kco": "^12.2.0",
         "kustom/module-klarna-api":  "1.1.0",
-        "kustom/module-kss":  "3.1.0",
+        "kustom/module-kss":  "^3.2.0",
         "kustom/module-logger": "3.1.0",
         "kustom/module-orderlines":  "3.1.0",
         "kustom/module-osm":  "4.1.0",
