@@ -1,5 +1,27 @@
 # Changelog
 
+## 1.3.0 / 2026-08-14
+
+### Affected packages
+
+| Package                         | From   | To     |
+|---------------------------------|--------|--------|
+| kustom/module-admin-settings    | 1.2.0  | 1.3.0  |
+| kustom/module-kco               | 12.1.1 | 12.2.0 |
+| kustom/module-kss               | 3.1.0  | 3.2.0  |
+
+### Breaking changes
+
+* None
+
+### Features / changes
+
+* KUSTOM-96: Support for the full checkout feature
+
+### Fixes
+
+* None
+
 ## 1.2.1 / 2026-08-10
 
 ### Affected packages
