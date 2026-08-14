@@ -5,7 +5,7 @@
     "require": {
         "kustom/module-admin-settings":  "1.2.0",
         "kustom/module-backend":  "11.1.0",
-        "kustom/module-base":  "11.1.0",
+        "kustom/module-base":  "^11.1.1",
         "kustom/module-kco": "^12.1.1",
         "kustom/module-klarna-api":  "1.1.0",
         "kustom/module-kss":  "3.1.0",
