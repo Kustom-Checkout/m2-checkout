@@ -1,5 +1,26 @@
 # Changelog
 
+## 1.2.1 / 2026-08-10
+
+### Affected packages
+
+| Package                         | From   | To     |
+|---------------------------------|--------|--------|
+| kustom/module-kco               | 12.1.0 | 12.1.1 |
+| kustom/module-base              | 11.1.0 | 11.1.1 |
+
+### Breaking changes
+
+* None
+
+### Features / changes
+
+* KUSTOM-6: Hyvä theme compatibility support.
+
+### Fixes
+
+* KUSTOM-46: Fix where product names and space cause problems with new Kustom module.
+
 ## 1.2.0 / 2026-06-26
 
 ### Affected packages
