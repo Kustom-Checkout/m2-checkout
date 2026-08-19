@@ -3,20 +3,20 @@
     "type": "metapackage",
     "version": "1.3.0",
     "require": {
-        "kustom/module-admin-settings":  "dev-KUSTOM-89-ksa-new-ingrid-integration-support as 1.3.0",
-        "kustom/module-backend":  "11.1.0",
-        "kustom/module-base":  "dev-KUSTOM-89-ksa-new-ingrid-integration-support as 11.1.1",
-        "kustom/module-kco": "dev-KUSTOM-89-ksa-new-ingrid-integration-support",
+        "kustom/module-admin-settings":  "1.3.0",
+        "kustom/module-backend":  "12.0.0",
+        "kustom/module-base":  "12.0.0",
+        "kustom/module-kco": "12.2.0",
         "kustom/module-klarna-api":  "1.1.0",
-        "kustom/module-kss":  "dev-KUSTOM-89-ksa-new-ingrid-integration-support as 3.2.0",
+        "kustom/module-kss":  "3.2.0",
         "kustom/module-logger": "3.1.0",
-        "kustom/module-orderlines":  "3.1.0",
-        "kustom/module-osm":  "4.1.0",
-        "kustom/module-payments":  "10.1.0",
-        "kustom/module-payments-graph-ql":  "3.1.0",
+        "kustom/module-orderlines":  "3.1.1",
+        "kustom/module-osm":  "4.1.1",
+        "kustom/module-payments":  "10.1.1",
+        "kustom/module-payments-graph-ql":  "3.1.1",
         "kustom/module-plugins-api":  "1.1.0",
-        "kustom/module-siwk":  "1.1.0",
-        "kustom/module-support":  "3.1.0"
+        "kustom/module-siwk":  "1.1.1",
+        "kustom/module-support":  "3.1.1"
     }
 }
 

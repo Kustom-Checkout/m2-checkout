@@ -1,26 +1,48 @@
 # Changelog
 
-## 1.3.0 / 2026-08-14
+## 1.3.0 / 2026-08-19
 
 ### Affected packages
 
 | Package                         | From   | To     |
 |---------------------------------|--------|--------|
 | kustom/module-admin-settings    | 1.2.0  | 1.3.0  |
+| kustom/module-backend           | 11.1.0 | 12.0.0 |
+| kustom/module-base              | 11.1.1 | 12.0.0 |
 | kustom/module-kco               | 12.1.1 | 12.2.0 |
 | kustom/module-kss               | 3.1.0  | 3.2.0  |
+| kustom/module-orderlines        | 3.1.0  | 3.1.1  |
+| kustom/module-osm               | 4.1.0  | 4.1.1  |
+| kustom/module-payments          | 10.1.0 | 10.1.1 |
+| kustom/module-payments-graph-ql | 3.1.0  | 3.1.1  |
+| kustom/module-siwk              | 1.1.0  | 1.1.1  |
+| kustom/module-support           | 3.1.0  | 3.1.1  |
 
 ### Breaking changes
 
-* None
+* KUSTOM-89: Removed deprecated class `Klarna\Base\Helper\KlarnaConfig`, `Klarna\Base\Helper\KlarnaConfig`
+  and `Klarna\Base\Api\OrderAuthorizedPaymentMethodInterface` along with references 
+* KUSTOM-89: OrderInterface updated `Klarna\Base\Api\OrderInterface`
 
 ### Features / changes
 
 * KUSTOM-96: Support for the full checkout feature
+* KUSTOM-89: Read and store additional shipping details from Kustom order's
+  `selected_shipping_option` (Order Management API response) — including carrier, tosId,
+  and pickup location name alongside the raw `selected_shipping_option` object as JSON.
+* KUSTOM-89: Added `tos_id`, `shipping_carrier`, `shipping_location_name` and `selected_shipping_option`
+  columns to `klarna_core_order` to store TMS (e.g. Ingrid) shipping option data from the placed Kustom
+  order, and exposed them in the admin order payment info section.
+* KUSTOM-89: Added a per-store admin setting to optionally send `options.tms_configuration_override.disabled`
+  on checkout create/update requests, for merchants migrating from a standalone Ingrid iframe integration.
+* KUSTOM-89: A new admin field ("Disable TMS configuration override") under Kustom Checkout → Shipping Options,
+  for merchants migrating from a standalone Ingrid (or other TMS) iframe integration.
 
 ### Fixes
 
-* None
+* KUSTOM-89: Fixed an issue where certain pickup point delivery methods (e.g. PickUpStore, BoxUnreg)
+  weren't being recognized during Kustom checkout, and corrected the pickup point name shown to customers
+  to reflect the actual location instead of a generic shipping method name.
 
 ## 1.2.1 / 2026-08-10
 
