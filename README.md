@@ -2,7 +2,7 @@
 
 ## Overview
 
-`kustom/m2-checkout` is a metapackage for Magento 2 that orchestrates a comprehensive checkout
+`kustom/module-checkout` is a metapackage for Magento 2 that orchestrates a comprehensive checkout
 solution for e-commerce platforms. It aggregates multiple specialized modules designed to enhance
 and streamline the checkout experience, payments processing, and order management within Magento 2.
 
@@ -46,7 +46,7 @@ The metapackage includes the following dependencies:
 This is a metapackage and should be installed via Composer as part of your Magento 2 project:
 
 ```bash
-composer require kustom/m2-checkout
+composer require kustom/module-checkout
 ```
 
 ## Requirements
