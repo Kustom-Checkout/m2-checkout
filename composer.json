@@ -8,7 +8,7 @@
         "kustom/module-backend": "12.0.0",
         "kustom/module-base": "dev-fix/KUSTOM-118-remove-old-code as 12.0.0",
         "kustom/module-kco": "dev-fix/KUSTOM-118-remove-old-code as 2.2.0",
-        "kustom/module-kss": "3.2.0",
+        "kustom/module-kss": "dev-fix/KUSTOM-118-failed-unit-test-fixes as 3.2.0",
         "kustom/module-logger": "3.1.0",
         "kustom/module-orderlines": "3.1.1",
         "kustom/module-support": "dev-fix/KUSTOM-118-remove-old-code as 3.1.1"
