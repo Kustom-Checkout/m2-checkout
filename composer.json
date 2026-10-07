@@ -1,7 +1,7 @@
 {
     "name": "kustom/module-checkout",
     "type": "metapackage",
-    "version": "1.2.1",
+    "version": "1.2.2",
     "require": {
         "kustom/module-admin-settings":  "1.2.0",
         "kustom/module-backend":  "11.1.0",

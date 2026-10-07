@@ -1,5 +1,27 @@
 # Changelog
 
+## 1.2.2 / 2026-10-07
+
+### Affected packages
+
+| Package                         | From   | To     |
+|---------------------------------|--------|--------|
+| kustom/module-kco               | 12.1.1 | 12.1.2 |
+
+### Breaking changes
+
+* None
+
+### Features / changes
+
+* Introduced an order creation lock, so only one request can create the order for a Kustom purchase
+
+### Fixes
+
+* Fixed duplicate orders when the confirmation page and Kustom's notification arrive at the same time
+* Fixed an error on the success page when the order was already created by a parallel request
+* Fixed email errors preventing the order status from being updated
+
 ## 1.2.1 / 2026-08-10
 
 ### Affected packages
