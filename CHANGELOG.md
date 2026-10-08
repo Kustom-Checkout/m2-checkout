@@ -8,7 +8,7 @@
 |---------------------------------|--------|--------|
 | kustom/module-admin-settings    | 1.3.0  | 1.4.0  |
 | kustom/module-kco               | 12.1.1 | 12.4.2 |
-| kustom/module-kss               | 3.2.0  | dev-fix/KUSTOM-118-failed-unit-test-fixes  |
+| kustom/module-kss               | 3.2.0  | 3.2.1  |
 
 ### Breaking changes
 * None
@@ -27,6 +27,7 @@
 * KUSTOM-122: Fix duplicate Magento orders from concurrent confirmation and push calls.
 * KUSTOM-122: Fix the success page error when the order was created by a concurrent call.
 * KUSTOM-122: Fix mail errors stopping the push before the order state is updated.
+* KUSTOM-122: PHPUnit tests fixed
 
 ## 2.0.0 / 2026-09-10
 
