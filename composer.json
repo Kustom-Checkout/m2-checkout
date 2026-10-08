@@ -4,10 +4,10 @@
     "version": "2.1.0",
     "license": "Apache-2.0",
     "require": {
-        "kustom/module-admin-settings":  "1.3.0",
+        "kustom/module-admin-settings":  "1.4.0",
         "kustom/module-backend":  "12.0.0",
         "kustom/module-base":  "12.0.0",
-        "kustom/module-kco": "12.2.0",
+        "kustom/module-kco": "12.4.1",
         "kustom/module-klarna-api":  "1.1.0",
         "kustom/module-kss":  "3.2.0",
         "kustom/module-logger": "3.1.0",
