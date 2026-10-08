@@ -7,7 +7,8 @@
 | Package                         | From   | To     |
 |---------------------------------|--------|--------|
 | kustom/module-admin-settings    | 1.3.0  | 1.4.0  |
-| kustom/module-kco               | 12.1.1 | 12.4.1 |
+| kustom/module-kco               | 12.1.1 | 12.4.2 |
+| kustom/module-kss               | 3.2.0  | dev-fix/KUSTOM-118-failed-unit-test-fixes  |
 
 ### Breaking changes
 * None
