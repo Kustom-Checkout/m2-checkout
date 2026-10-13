@@ -15,9 +15,11 @@
 | kustom/module-support           | 3.1.1  | 3.1.2  |
 
 ### Breaking changes
+* KUSTOM-118: Ended support for Klarna Payments (KP), On-site Messaging (OSM),  
+  Sign in with Klarna (SIWK) and Klarna Express Checkout (KEC)
 * KUSTOM-118: Removed module-payments, module-payments-graph-ql, module-osm and module-siwk
 * KUSTOM-118: Removed module-plugins-api and module-klarna-api
-* KUSTOM-118: Kustom Checkout is now the only supported product
+* KUSTOM-118: Removed their admin configuration, related classes, and dependencies
 
 ### Features / changes
 * None
