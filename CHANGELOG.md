@@ -9,7 +9,7 @@
 | kustom/module-admin-settings    | 1.4.0  | 2.0.0  |
 | kustom/module-backend           | 12.0.0 | 12.0.1 |
 | kustom/module-base              | 12.0.0 | 12.0.1 |
-| kustom/module-kco               | 12.4.2 | 12.4.3 |
+| kustom/module-kco               | 12.4.2 | 12.4.4 |
 | kustom/module-kss               | 3.2.1  | 3.2.2  |
 | kustom/module-orderlines        | 3.1.1  | 3.1.2  |
 | kustom/module-support           | 3.1.1  | 3.1.2  |
