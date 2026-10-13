@@ -1,5 +1,32 @@
 # Changelog
 
+## 3.0.0 / 2026-10-12
+
+### Affected packages
+
+| Package                         | From   | To     |
+|---------------------------------|--------|--------|
+| kustom/module-admin-settings    | 1.4.0  | 2.0.0  |
+| kustom/module-backend           | 12.0.0 | 12.0.1 |
+| kustom/module-base              | 12.0.0 | 12.0.1 |
+| kustom/module-kco               | 12.4.2 | 12.4.4 |
+| kustom/module-kss               | 3.2.1  | 3.2.2  |
+| kustom/module-orderlines        | 3.1.1  | 3.1.2  |
+| kustom/module-support           | 3.1.1  | 3.1.2  |
+
+### Breaking changes
+* KUSTOM-118: Ended support for Klarna Payments (KP), On-site Messaging (OSM),  
+  Sign in with Klarna (SIWK) and Klarna Express Checkout (KEC)
+* KUSTOM-118: Removed module-payments, module-payments-graph-ql, module-osm and module-siwk
+* KUSTOM-118: Removed module-plugins-api and module-klarna-api
+* KUSTOM-118: Removed their admin configuration, related classes, and dependencies
+
+### Features / changes
+* None
+
+### Fixes
+* None
+
 ## 2.1.0 / 2026-09-10
 
 ### Affected packages
