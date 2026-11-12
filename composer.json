@@ -11,7 +11,7 @@
         "kustom/module-klarna-api":  "1.1.0",
         "kustom/module-kss":  "3.2.1",
         "kustom/module-logger": "3.1.0",
-        "kustom/module-orderlines":  "dev-release/3.1.x",
+        "kustom/module-orderlines":  "dev-release/3.1.x as 3.1.1-p1",
         "kustom/module-osm":  "4.1.1",
         "kustom/module-payments":  "10.1.1",
         "kustom/module-payments-graph-ql":  "3.1.1",
