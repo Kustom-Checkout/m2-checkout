@@ -6,7 +6,7 @@
     "require": {
         "kustom/module-admin-settings":  "1.4.0",
         "kustom/module-backend":  "12.0.0",
-        "kustom/module-base":  "12.0.0-p1",
+        "kustom/module-base":  "release/3.1.x",
         "kustom/module-kco": "12.4.2",
         "kustom/module-klarna-api":  "1.1.0",
         "kustom/module-kss":  "3.2.1",
