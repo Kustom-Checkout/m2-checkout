@@ -6,6 +6,27 @@
 
 | Package                         | From   | To     |
 |---------------------------------|--------|--------|
+| kustom/module-base               | 12.0.0 | 12.0.0-p1 |
+| kustom/module-orderlines               | 3.1.1  | 3.1.1-p1  |
+
+### Breaking changes
+* None
+
+### Features / changes
+* KUSTOM-124: Added Calculator\Shipping::getTaxRateByOrder() to get the shipping tax rate Magento applied to an order
+
+### Fixes
+* KUSTOM-124: Fixed shipping tax rate on capture and refund to use the rate Magento applied
+* KUSTOM-124: Fixed shipping tax sent on captures without shipping
+* KUSTOM-124: Fixed item amounts on captures and refunds of part of the ordered quantity
+* KUSTOM-124: Passed the discount tax compensation of the invoice and credit memo item to the order lines
+
+## 2.1.0 / 2026-09-10
+
+### Affected packages
+
+| Package                         | From   | To     |
+|---------------------------------|--------|--------|
 | kustom/module-admin-settings    | 1.3.0  | 1.4.0  |
 | kustom/module-kco               | 12.1.1 | 12.4.2 |
 | kustom/module-kss               | 3.2.0  | 3.2.1  |
