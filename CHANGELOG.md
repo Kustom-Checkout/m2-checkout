@@ -1,13 +1,13 @@
 # Changelog
 
-## 2.1.0 / 2026-09-10
+## 2.1.1-p1 / 2026-09-13
 
 ### Affected packages
 
 | Package                         | From   | To     |
 |---------------------------------|--------|--------|
 | kustom/module-base               | 12.0.0 | 12.0.0-p1 |
-| kustom/module-orderlines               | 3.1.1  | 3.1.1-p1  |
+| kustom/module-orderlines               | 3.1.1  | 3.1.1-p2  |
 
 ### Breaking changes
 * None
