@@ -1,6 +1,6 @@
 # Changelog
 
-## 3.0.1 / 2026-11-13
+## 3.0.2 / 2026-11-13
 
 ### Affected packages
 
