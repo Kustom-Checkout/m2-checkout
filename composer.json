@@ -1,7 +1,7 @@
 {
     "name": "kustom/module-checkout",
     "type": "metapackage",
-    "version": "3.0.0",
+    "version": "3.0.1",
     "license": "Apache-2.0",
     "require": {
         "kustom/module-admin-settings": "2.0.0",
