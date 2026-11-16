@@ -1,6 +1,6 @@
 # Changelog
 
-## 2.1.1-p1 / 2026-09-13
+## 2.1.2 / 2026-09-16
 
 ### Affected packages
 
