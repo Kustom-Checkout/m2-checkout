@@ -1,5 +1,26 @@
 # Changelog
 
+## 3.1.0 / 2026-11-26
+
+### Affected packages
+
+| Package                         | From   | To     |
+|---------------------------------|--------|--------|
+| kustom/module-kco               | 12.4.5 | 12.5.0 |
+| kustom/module-logger            | 3.1.0  | 3.2.0  |
+
+### Breaking changes
+* None
+
+### Features / changes
+* KUSTOM-123: Added support for recurring payments: implement `Klarna\Kco\Api\RecurringResolverInterface` to mark carts as recurring
+* KUSTOM-123: The recurring token is stored encrypted in new table `kustom_customer_token`; new column `klarna_kco_quote.is_recurring` marks recurring checkouts
+* KUSTOM-123: Added command `kustom:recurring:recover-token` to store the token of existing recurring orders
+* KUSTOM-123: `recurring_token` is redacted in `klarna_logs` and `klarna.log`; more keys can be added through the `sensitiveKeys` di argument
+
+### Fixes
+* KUSTOM-123: Fixed error 500 on `kco/api/getAddresses` when an address has no region
+
 ## 3.0.3 / 2026-11-25
 
 ### Affected packages

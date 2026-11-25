@@ -1,15 +1,15 @@
 {
     "name": "kustom/module-checkout",
     "type": "metapackage",
-    "version": "3.0.3",
+    "version": "3.1.0",
     "license": "Apache-2.0",
     "require": {
         "kustom/module-admin-settings": "2.0.0",
         "kustom/module-backend": "12.0.1",
         "kustom/module-base": "12.0.2",
-        "kustom/module-kco": "12.4.5",
+        "kustom/module-kco": "12.5.0",
         "kustom/module-kss": "3.2.2",
-        "kustom/module-logger": "3.1.0",
+        "kustom/module-logger": "3.2.0",
         "kustom/module-orderlines": "3.2.0",
         "kustom/module-support": "3.1.2"
     }
