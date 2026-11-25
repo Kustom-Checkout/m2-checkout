@@ -1,5 +1,13 @@
 # Changelog
 
+## 3.0.3 / 2026-11-25
+
+### Affected packages
+
+| Package                         | From   | To     |
+|---------------------------------|--------|--------|
+| kustom/module-kco               | 12.4.4 | 12.4.5 |
+
 ## 3.0.2 / 2026-11-13
 
 ### Affected packages
