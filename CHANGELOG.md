@@ -1,5 +1,25 @@
 # Changelog
 
+## 3.0.3 / 2026-11-25
+
+### Affected packages
+
+| Package                         | From   | To     |
+|---------------------------------|--------|--------|
+| kustom/module-kco               | 12.4.4 | 12.4.5 |
+
+### Breaking changes
+* None
+
+### Features / changes
+* KUSTOM-128: New nullable column `klarna_kco_quote.validated_at` stores when the validate callback last succeeded, to time the 5-minute lock
+
+### Fixes
+* KUSTOM-129: Addresses Magento cannot save are now rejected in the validate callback so the customer can correct them
+* KUSTOM-127: Push and confirmation reuse the shipping rate accepted at validate instead of collecting rates again
+* KUSTOM-128: Shipping method changes and order updates from the Magento checkout page are refused for 5 minutes after validate and once the order exists
+* KUSTOM-128: Changes made inside the Kustom checkout are not affected
+
 ## 3.0.2 / 2026-11-13
 
 ### Affected packages
